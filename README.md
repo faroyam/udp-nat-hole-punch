@@ -36,7 +36,7 @@ Establishes p2p connection beetween clients based on their IDs
 
 ### Usage example
 
-[Example](example/connection.gif)
+![Example](example/connection.gif)
 
 $ ./udp-hole-punch-exe -h
 Usage of ./udp-hole-punch-exe:
