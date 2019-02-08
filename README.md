@@ -29,14 +29,13 @@ Establishes p2p connection beetween clients based on their IDs
                 |                                 |
         +-------+-------+                +--------+-------+
         |               |                |                |
-        |    clientA    |                |    clientB     |
+        |   client A    |                |    client B    |
         |               |                |                |
         +---------------+                +----------------+
 ```
 
 ### Usage example
 
-![Example](example/connection.gif)
 ```
 $ ./udp-hole-punch-exe -h
 Usage of ./udp-hole-punch-exe:
@@ -52,3 +51,4 @@ Usage of ./udp-hole-punch-exe:
   -t duration
         set reconnection timeout (default 2s)
  ```       
+![Example](example/connection.gif)
