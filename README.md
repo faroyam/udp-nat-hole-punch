@@ -1,7 +1,8 @@
 # UDP NAT hole punch
 
-Another one UDP [NAT hole punch](http://bford.info/pub/net/p2pnat/) example implemented in GO
-Establishes p2p connection beetween clients based on their IDs 
+Another one UDP [NAT hole punch](http://bford.info/pub/net/p2pnat/) example implemented in GO.
+
+Establishes p2p connection beetween clients based on their IDs.
 
 ### Tested in following conditions
 
