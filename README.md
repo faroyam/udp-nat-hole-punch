@@ -5,7 +5,7 @@ Establishes p2p connection beetween clients based on their IDs
 
 ### Tested in following conditions
 
-
+```
                         +----------------+
                         |                |
                         |  signal server |
@@ -32,12 +32,12 @@ Establishes p2p connection beetween clients based on their IDs
         |    clientA    |                |    clientB     |
         |               |                |                |
         +---------------+                +----------------+
-
+```
 
 ### Usage example
 
 ![Example](example/connection.gif)
-
+```
 $ ./udp-hole-punch-exe -h
 Usage of ./udp-hole-punch-exe:
   -a string
@@ -51,4 +51,4 @@ Usage of ./udp-hole-punch-exe:
   -s    run in server mode
   -t duration
         set reconnection timeout (default 2s)
-        
+ ```       
